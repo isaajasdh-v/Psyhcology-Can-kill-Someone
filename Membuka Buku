@@ -1,0 +1,1131 @@
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psychology can kill someone by unknown - Prof. Dr. Aurelius Vance</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts for Vintage Aesthetic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400;1,600&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        parchment: '#fdfbf7',
+                        'parchment-dark': '#f4ebd0',
+                        ink: '#1a1612',
+                        'ink-light': '#3a3127',
+                        gold: '#b8860b',
+                        'gold-dark': '#8b6508',
+                        leather: '#5c3a21',
+                        'leather-dark': '#3d2514',
+                        'leather-accent': '#7a4e2c',
+                    },
+                    fontFamily: {
+                        serif: ['EB Garamond', 'Cormorant Garamond', 'Georgia', 'serif'],
+                        display: ['Cinzel Decorative', 'Cinzel', 'serif'],
+                        title: ['Cinzel', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Custom Scrollbars & Vintage Bright Styling */
+        body {
+            background-color: #2b2622;
+            color: #1a1612;
+            font-family: 'EB Garamond', serif;
+            overflow-x: hidden;
+            user-select: none;
+        }
+
+        /* Warm Bright Ambient Lighting Effect */
+        .ambient-candle {
+            background: radial-gradient(circle at 50% 50%, rgba(245, 230, 200, 0.25) 0%, rgba(35, 28, 22, 0.95) 85%);
+        }
+
+        .candle-flicker {
+            animation: flicker 4s infinite alternate;
+        }
+
+        @keyframes flicker {
+            0% { opacity: 0.98; }
+            50% { opacity: 1; }
+            100% { opacity: 0.97; }
+        }
+
+        /* Brighter Paper Background Texture */
+        .paper-texture {
+            background-color: #fdfbf7;
+            background-image: 
+                radial-gradient(circle at 50% 50%, rgba(253, 251, 247, 1) 0%, rgba(244, 235, 208, 0.95) 100%),
+                url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.04'/%3E%3C/svg%3E");
+            box-shadow: inset 0 0 20px rgba(139, 101, 8, 0.15), 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        /* Rich Vintage Leather Cover Texture */
+        .leather-texture {
+            background: linear-gradient(135deg, #7a4a28 0%, #4a2a14 60%, #301a0a 100%);
+            box-shadow: 
+                inset 0 0 50px rgba(0,0,0,0.6),
+                inset 0 0 15px rgba(212, 175, 55, 0.4),
+                0 20px 40px rgba(0, 0, 0, 0.7);
+            border: 2px solid #8c5832;
+        }
+
+        /* Gold Foil Border Accent */
+        .gold-emboss {
+            border: 2px solid #b8860b;
+            box-shadow: inset 0 0 10px rgba(184, 134, 11, 0.3), 0 0 10px rgba(184, 134, 11, 0.2);
+            background: linear-gradient(135deg, rgba(255,223,128,0.15) 0%, rgba(184,134,11,0.05) 100%);
+        }
+
+        /* Book Spine Shadow */
+        .spine-shadow-left {
+            background: linear-gradient(to right, rgba(0,0,0,0.18) 0%, rgba(0,0,0,0.05) 15%, rgba(0,0,0,0) 100%);
+        }
+        .spine-shadow-right {
+            background: linear-gradient(to left, rgba(0,0,0,0.18) 0%, rgba(0,0,0,0.05) 15%, rgba(0,0,0,0) 100%);
+        }
+
+        .book-container {
+            perspective: 2000px;
+        }
+
+        /* Custom Scrollbar inside pages */
+        .custom-scroll::-webkit-scrollbar {
+            width: 5px;
+        }
+        .custom-scroll::-webkit-scrollbar-track {
+            background: rgba(139, 101, 8, 0.08);
+            border-radius: 4px;
+        }
+        .custom-scroll::-webkit-scrollbar-thumb {
+            background: rgba(184, 134, 11, 0.5);
+            border-radius: 4px;
+        }
+        .custom-scroll::-webkit-scrollbar-thumb:hover {
+            background: rgba(184, 134, 11, 0.8);
+        }
+
+        /* Dropcap styling */
+        .dropcap::first-letter {
+            font-family: 'Cinzel Decorative', serif;
+            font-size: 3.25rem;
+            float: left;
+            line-height: 0.8;
+            padding-top: 4px;
+            padding-right: 8px;
+            padding-bottom: 2px;
+            color: #8b0000;
+            font-weight: bold;
+        }
+
+        /* Smooth UI Hide Transition */
+        .ui-element {
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+        .ui-hidden {
+            opacity: 0 !important;
+            pointer-events: none !important;
+            transform: translateY(-10px);
+        }
+        .ui-hidden-bottom {
+            opacity: 0 !important;
+            pointer-events: none !important;
+            transform: translateY(10px);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between items-center relative candle-flicker ambient-candle text-ink overflow-hidden select-none">
+
+    <!-- Floating UI Toggle Button -->
+    <button id="btnToggleUI" title="Sembunyikan / Tampilkan Menu (UI)" class="fixed top-3 right-3 z-50 bg-leather-dark/90 hover:bg-leather text-amber-200 px-3 py-2 rounded-full border border-gold/40 shadow-lg text-xs md:text-sm flex items-center gap-2 transition-all">
+        <i id="uiToggleIcon" class="fa-solid fa-eye-slash"></i>
+        <span id="uiToggleText" class="hidden sm:inline font-title font-semibold">Sembunyikan UI</span>
+    </button>
+
+    <!-- Top Navigation / Header Controls -->
+    <header id="topHeader" class="ui-element w-full max-w-6xl px-4 py-3 flex justify-between items-center z-30 border-b border-gold-dark/30 bg-black/50 backdrop-blur-md text-amber-100">
+        <div class="flex items-center gap-3">
+            <i class="fa-solid me-1 fa-book-skull text-xl text-amber-300"></i>
+            <span class="font-title text-sm md:text-base font-bold tracking-widest text-amber-200 uppercase hidden sm:inline">Aeterna Philosophia</span>
+        </div>
+
+        <!-- Controls Center -->
+        <div class="flex items-center gap-2 md:gap-4 text-xs md:text-sm mr-12 sm:mr-0">
+            <button id="btnTOC" class="hover:text-amber-300 transition-colors flex items-center gap-1 bg-leather-dark/80 px-3 py-1.5 rounded border border-gold/40 font-semibold">
+                <i class="fa-solid fa-list-ul"></i> <span class="hidden md:inline">Daftar Isi</span>
+            </button>
+            <button id="btnSearch" class="hover:text-amber-300 transition-colors flex items-center gap-1 bg-leather-dark/80 px-3 py-1.5 rounded border border-gold/40 font-semibold">
+                <i class="fa-solid fa-magnifying-glass"></i> <span class="hidden md:inline">Cari Halaman</span>
+            </button>
+            <button id="btnSound" class="hover:text-amber-300 transition-colors flex items-center gap-1 bg-leather-dark/80 px-3 py-1.5 rounded border border-gold/40 font-semibold">
+                <i id="soundIcon" class="fa-solid fa-volume-high text-amber-300"></i> <span class="hidden md:inline">Suara</span>
+            </button>
+        </div>
+
+        <!-- Progress Indicator -->
+        <div class="font-title text-xs md:text-sm font-bold text-amber-200 bg-leather-dark/90 px-3 py-1 rounded border border-gold/40 hidden md:block">
+            Hal: <span id="pageIndicator">0</span> / 36
+        </div>
+    </header>
+
+    <!-- MAIN BOOK CONTAINER -->
+    <main class="w-full flex-1 flex justify-center items-center p-2 sm:p-4 my-2 z-10 book-container relative">
+        
+        <!-- Interactive Leather Cover View (When book is closed) -->
+        <div id="bookCoverView" class="w-full max-w-md h-[78vh] max-h-[720px] leather-texture rounded-r-2xl rounded-l-md p-6 flex flex-col justify-between items-center text-center cursor-pointer transition-transform duration-300 hover:scale-[1.01] relative group shadow-2xl border-l-8 border-leather-dark">
+            <!-- Spine Indentation -->
+            <div class="absolute left-0 top-0 bottom-0 w-6 bg-black/40 border-r border-gold/30"></div>
+            
+            <!-- Outer Gold Frame -->
+            <div class="w-full h-full gold-emboss p-6 flex flex-col justify-between items-center relative overflow-hidden rounded-sm">
+                <!-- Corner Ornaments -->
+                <div class="absolute top-2 left-2 text-amber-300 text-xl">❦</div>
+                <div class="absolute top-2 right-2 text-amber-300 text-xl">❦</div>
+                <div class="absolute bottom-2 left-2 text-amber-300 text-xl">❦</div>
+                <div class="absolute bottom-2 right-2 text-amber-300 text-xl">❦</div>
+
+                <!-- Header Title Cover -->
+                <div class="mt-4">
+                    <p class="font-title text-amber-200 tracking-[0.3em] text-xs font-bold uppercase mb-2">Tractatus Philosophico-Medicus</p>
+                    <div class="w-24 h-0.5 bg-amber-300 mx-auto mb-4"></div>
+                </div>
+
+                <!-- Main Cover Title -->
+                <div class="my-auto">
+                    <h1 class="font-display text-2xl sm:text-3xl md:text-4xl text-amber-200 font-bold tracking-wider uppercase leading-tight drop-shadow-md">
+                        PSYCHOLOGY<br><span class="text-xl sm:text-2xl text-amber-100">CAN KILL SOMEONE</span><br><span class="text-lg italic font-serif lowercase text-amber-200">by</span><br>UNKNOWN
+                    </h1>
+                    <p class="font-serif italic text-amber-100 text-sm font-medium mt-4 px-2">
+                        "Manifesto Kebodohan Manusia tentang Pengetahuan, Hakikat Ada & Tiada, serta Pembunuhan Sunyi Jiwa."
+                    </p>
+                </div>
+
+                <!-- Symbol Illustration -->
+                <div class="my-3 text-amber-300 text-4xl">
+                    <i class="fa-solid fa-hourglass-half animate-pulse"></i>
+                    <p class="text-[10px] tracking-widest text-amber-200 font-bold mt-2 font-title">MEMENTO MORI • COGITO ERGO SUM</p>
+                </div>
+
+                <!-- Author Name & Action -->
+                <div class="mb-4">
+                    <p class="font-title text-amber-200 text-sm font-bold tracking-wider uppercase">Prof. Dr. Aurelius Vance</p>
+                    <p class="text-[11px] text-amber-100 font-serif italic mb-3">Sang Pengelana Jiwa (1882 - 1944)</p>
+                    <div class="inline-block px-4 py-1.5 bg-amber-300/30 hover:bg-amber-300/40 text-amber-100 rounded-full text-xs font-title font-bold tracking-widest border border-amber-300/60 group-hover:scale-105 transition-all">
+                        <i class="fa-solid fa-book-open mr-1"></i> Buka Lembaran Buku
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Open Pages Spread View (When book is open) -->
+        <div id="bookSpreadView" class="hidden w-full max-w-5xl h-[80vh] max-h-[750px] flex rounded-lg shadow-2xl relative border-4 border-leather-dark bg-leather-dark">
+            
+            <!-- Side Navigation Buttons Attached directly to the Book Pages -->
+            <button id="btnSidePrev" title="Halaman Sebelumnya" class="absolute -left-5 sm:-left-6 top-1/2 -translate-y-1/2 z-40 w-10 h-12 sm:w-12 sm:h-16 bg-leather hover:bg-leather-accent text-amber-200 rounded-l-lg border-l border-t border-b border-gold/50 shadow-2xl flex items-center justify-center transition-all hover:scale-110 active:scale-95 disabled:opacity-30 disabled:cursor-not-allowed">
+                <i class="fa-solid fa-chevron-left text-lg sm:text-xl"></i>
+            </button>
+
+            <button id="btnSideNext" title="Halaman Berikutnya" class="absolute -right-5 sm:-right-6 top-1/2 -translate-y-1/2 z-40 w-10 h-12 sm:w-12 sm:h-16 bg-leather hover:bg-leather-accent text-amber-200 rounded-r-lg border-r border-t border-b border-gold/50 shadow-2xl flex items-center justify-center transition-all hover:scale-110 active:scale-95 disabled:opacity-30 disabled:cursor-not-allowed">
+                <i class="fa-solid fa-chevron-right text-lg sm:text-xl"></i>
+            </button>
+
+            <!-- Book Center Spine Divider -->
+            <div class="absolute left-1/2 top-0 bottom-0 w-8 -translate-x-1/2 bg-gradient-to-r from-black/30 via-black/50 to-black/30 z-20 pointer-events-none hidden md:block"></div>
+
+            <!-- LEFT PAGE CONTAINER -->
+            <div id="leftPage" class="w-full md:w-1/2 h-full paper-texture p-6 sm:p-8 md:p-10 flex flex-col justify-between relative spine-shadow-right rounded-l-md border-r border-amber-900/10 overflow-hidden z-10">
+                <!-- Page Header -->
+                <div class="flex justify-between items-center text-xs font-title font-bold text-amber-950 border-b border-amber-900/30 pb-2 mb-3">
+                    <span id="leftHeaderTitle">PSYCHOLOGY CAN KILL SOMEONE BY UNKNOWN</span>
+                    <span id="leftPageNum" class="font-bold">1</span>
+                </div>
+
+                <!-- Left Page Scrollable Content -->
+                <div id="leftContent" class="flex-1 overflow-y-auto custom-scroll pr-2 text-justify leading-relaxed font-serif text-sm sm:text-base text-ink font-semibold">
+                    <!-- Dynamic content injected here -->
+                </div>
+
+                <!-- Left Page Footer -->
+                <div class="pt-2 mt-2 border-t border-amber-900/30 text-[10px] text-center text-amber-950 font-title font-bold tracking-widest">
+                    LIBER PRIMUS • TRACTATUS PHILOSOPHICUS
+                </div>
+            </div>
+
+            <!-- RIGHT PAGE CONTAINER -->
+            <div id="rightPage" class="hidden md:flex w-1/2 h-full paper-texture p-6 sm:p-8 md:p-10 flex-col justify-between relative spine-shadow-left rounded-r-md overflow-hidden z-10">
+                <!-- Page Header -->
+                <div class="flex justify-between items-center text-xs font-title font-bold text-amber-950 border-b border-amber-900/30 pb-2 mb-3">
+                    <span id="rightPageNum" class="font-bold">2</span>
+                    <span id="rightHeaderTitle">PROF. DR. AURELIUS VANCE</span>
+                </div>
+
+                <!-- Right Page Scrollable Content -->
+                <div id="rightContent" class="flex-1 overflow-y-auto custom-scroll pr-2 text-justify leading-relaxed font-serif text-sm sm:text-base text-ink font-semibold">
+                    <!-- Dynamic content injected here -->
+                </div>
+
+                <!-- Right Page Footer -->
+                <div class="pt-2 mt-2 border-t border-amber-900/30 text-[10px] text-center text-amber-950 font-title font-bold tracking-widest">
+                    EX COGNITIONE AD IGNORANTIAM
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Bottom Navigation Bar & Slider -->
+    <footer id="bottomFooter" class="ui-element w-full max-w-4xl px-4 py-3 z-30 flex flex-col sm:flex-row items-center justify-between gap-3 bg-black/60 backdrop-blur-md rounded-t-xl border-t border-gold/30">
+        <div class="flex items-center gap-2">
+            <button id="btnPrev" class="px-3.5 py-1.5 bg-leather hover:bg-leather-accent text-amber-200 font-semibold rounded border border-gold/40 text-xs md:text-sm transition-all disabled:opacity-40 disabled:cursor-not-allowed">
+                <i class="fa-solid fa-chevron-left mr-1"></i> Sebelum
+            </button>
+            <button id="btnCover" class="px-3.5 py-1.5 bg-leather-dark hover:bg-leather text-amber-200 font-semibold rounded border border-gold/30 text-xs md:text-sm transition-all">
+                <i class="fa-solid fa-book mr-1"></i> Sampul
+            </button>
+            <button id="btnNext" class="px-3.5 py-1.5 bg-leather hover:bg-leather-accent text-amber-200 font-semibold rounded border border-gold/40 text-xs md:text-sm transition-all disabled:opacity-40 disabled:cursor-not-allowed">
+                Berikut <i class="fa-solid fa-chevron-right ml-1"></i>
+            </button>
+        </div>
+
+        <!-- Page Range Slider -->
+        <div class="flex items-center gap-3 w-full sm:w-1/2 max-w-xs">
+            <span class="text-xs text-amber-200 font-bold font-title">1</span>
+            <input type="range" id="pageSlider" min="0" max="36" value="0" class="w-full accent-amber-400 bg-leather-dark cursor-pointer">
+            <span class="text-xs text-amber-200 font-bold font-title">36</span>
+        </div>
+
+        <div class="text-xs text-amber-200 font-serif italic font-semibold hidden md:block">
+            Gunakan tombol panah / keyboard ◄ ►
+        </div>
+    </footer>
+
+    <!-- MODAL: Table of Contents / Index -->
+    <div id="modalTOC" class="fixed inset-0 bg-black/80 backdrop-blur-md z-50 hidden flex justify-center items-center p-4">
+        <div class="paper-texture w-full max-w-2xl max-h-[85vh] rounded-lg p-6 sm:p-8 flex flex-col border-2 border-gold shadow-2xl relative">
+            <button id="closeTOC" class="absolute top-4 right-4 text-ink hover:text-red-800 text-xl font-bold">✕</button>
+            <h2 class="font-display text-xl sm:text-2xl text-center text-ink font-bold mb-1 border-b border-ink/20 pb-2">
+                INDEX & STRUKTUR TRACTATUS
+            </h2>
+            <p class="text-center italic text-xs font-serif text-amber-950 font-bold mb-4">Pilih Bab atau Halaman untuk Langsung Melompat</p>
+            
+            <div class="flex-1 overflow-y-auto custom-scroll pr-2 space-y-3 font-serif">
+                <!-- TOC Item List Generated via JS -->
+                <div id="tocList" class="space-y-2"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL: Page Search / Jump Bar -->
+    <div id="modalSearch" class="fixed inset-0 bg-black/80 backdrop-blur-md z-50 hidden flex justify-center items-center p-4">
+        <div class="paper-texture w-full max-w-md rounded-lg p-6 border-2 border-gold shadow-2xl relative">
+            <button id="closeSearch" class="absolute top-3 right-3 text-ink hover:text-red-800 text-lg">✕</button>
+            <h3 class="font-title text-lg text-ink font-bold mb-3 border-b border-ink/20 pb-1">Lompat ke Halaman Spesifik</h3>
+            
+            <form id="searchForm" class="flex flex-col gap-3">
+                <label class="text-xs font-serif text-amber-950 font-bold">Masukkan Nomor Halaman (1 - 36):</label>
+                <div class="flex gap-2">
+                    <input type="number" id="inputPageNum" min="1" max="36" placeholder="Contoh: 12" class="flex-1 px-3 py-2 bg-parchment-dark border border-ink/30 rounded text-ink font-bold focus:outline-none focus:border-gold">
+                    <button type="submit" class="px-4 py-2 bg-leather text-gold rounded font-title text-sm hover:bg-leather-accent transition-all font-bold">Buka</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT LOGIC & CONTENT DATABASE -->
+    <script>
+        // =========================================================================
+        // 36 PAGES OF CONTINUOUS PHILOSOPHICAL TREATISE (BAHASA INDONESIA)
+        // =========================================================================
+        const bookPages = [
+            // Page 0: Cover / Title Page
+            {
+                title: "HALAMAN JUDUL & PRIVASI",
+                chapter: "PROLOG",
+                content: `
+                    <div class="text-center my-auto py-8">
+                        <p class="font-title text-xs tracking-[0.3em] text-amber-950 font-bold uppercase mb-2">Opus Magnum Philosophicum</p>
+                        <h1 class="font-display text-2xl sm:text-3xl text-ink font-bold leading-tight mb-4">
+                            PSYCHOLOGY CAN KILL SOMEONE BY UNKNOWN
+                        </h1>
+                        <p class="font-serif italic text-sm text-amber-950 font-bold max-w-md mx-auto mb-6">
+                            Penjelajahan Paradoksil atas Kebodohan Manusia, Hakikat Realitas "Ada & Tiada", Kematian Tanpa Jejak, dan Labirin Teologi Kosmik.
+                        </p>
+                        <div class="w-16 h-0.5 bg-amber-950/40 mx-auto my-6"></div>
+                        <p class="font-title text-xs tracking-wider uppercase text-ink font-bold">Ditulis Oleh:</p>
+                        <p class="font-serif text-lg font-bold text-amber-950 mt-1">Prof. Dr. Aurelius Vance</p>
+                        <p class="font-serif text-xs italic text-amber-950 font-semibold">Guru Besar Metaphysical Medicine & Natural Philosophy</p>
+                        <p class="text-[11px] text-amber-950/80 font-bold mt-8">Dicetak Pertama Kali di Heidelberg, 1912</p>
+                    </div>
+                `
+            },
+            // Page 1: Foreword Part 1
+            {
+                title: "Pendahuluan: Ilusi Pengetahuan",
+                chapter: "PENDAHULUAN",
+                content: `
+                    <p class="dropcap">Manusia modern hidup dalam ilusi terbesar dalam sejarah kosmos: prasangka bahwa mereka tahu. Kita membanggakan mikroskop, teleskop, dan ensiklopedia, seolah-olah penamaan atas suatu fenomena sama dengan pemahaman atas hakikatnya. Ketika kedokteran memberi nama 'gagal jantung' atau 'asfiksia' pada jasad yang kaku, mereka merasa telah memecahkan teka-teki kematian. Padahal, mereka hanya memberi label pada puing-puing, bukan pada badai yang meruntuhkannya.</p>
+                    <p class="mt-4">Buku ini ditulis bukan untuk menambah perbendaharaan dogma Anda, melainkan untuk merobohkan fondasi keyakinan tersebut. Kematian yang paling nyata bukan disebabkan oleh pisau, racun, atau mikroba; melainkan oleh serangkaian konstruksi psikologis tak kasat mata yang merayap di celah kesadaran. Psikologi dapat membunuh seseorang—tanpa jejak, tanpa nama, dan tanpa diketahui oleh hukum empiris.</p>
+                `
+            },
+            // Page 2: Foreword Part 2
+            {
+                title: "Kebodohan Utama Manusia",
+                chapter: "PENDAHULUAN",
+                content: `
+                    <p>Apakah yang dimaksud dengan 'kebodohan manusia tentang pengetahuan'? Kebodohan absolut bukanlah ketiadaan informasi, melainkan ketidakmampuan menyadari bahwa struktur berpikir kita adalah penjara itu sendiri. Kita mengukur alam semesta dengan indra yang sangat terbatas, lalu berani menyimpulkan apa yang 'ada' dan 'tiada'.</p>
+                    <blockquote class="my-4 p-3 italic border-l-2 border-amber-900 bg-amber-900/10 text-amber-950 font-bold text-xs sm:text-sm">
+                        "Kejahatan intelektual terbesar adalah ketika akal manusia menuduh alam semesta tidak masuk akal, hanya karena akalnya sendiri yang terlalu kerdil untuk menampung kenyataan."
+                    </blockquote>
+                    <p>Dalam halaman-halaman mendatang, kita akan melintasi batas filsafat, anatomi otak, teologi kuno, hingga mekanika kosmis untuk membuktikan betapa rentannya jiwa manusia terhadap kekuatan tak kasat mata dari ketidaktahuannya sendiri.</p>
+                `
+            },
+            // Page 3: Chapter 1 - Being vs Non-Being
+            {
+                title: "Bab I: Ada atau Tiada",
+                chapter: "BAB I: ONTOLOGI",
+                content: `
+                    <h2 class="font-title text-base text-amber-950 font-bold mb-3">1. Hakikat Ontologis Keberadaan</h2>
+                    <p class="dropcap">Apakah sesuatu yang tidak dapat diukur oleh instrumen medis berarti 'tidak ada'? Inilah cacat epistemologis paling mendasar dari materialism medis. Jika seorang manusia mati karena rasa takut yang teramat sangat atau ilusi yang membatu, apakah penyebab kematian itu 'ada' atau 'tiada'?</p>
+                    <p class="mt-4">Secara fisik, tidak ada molekul racun di pembuluh darahnya. Namun, fungsi biologisnya terhenti secara absolut. Di sinilah garis batas antara <i>Being</i> (Ada) dan <i>Non-Being</i> (Tiada) melebur. Sesuatu yang 'tiada' dalam bentuk materi dapat menjadi 'ada' dalam bentuk daya penghancur psikologis yang nyata.</p>
+                `
+            },
+            // Page 4: Consciousness and Reality
+            {
+                title: "Kesadaran Sebagai Pencipta Realitas",
+                chapter: "BAB I: ONTOLOGI",
+                content: `
+                    <p>Kesadaran bukanlah sekadar penonton pasif dari alam semesta; ia adalah partisipan aktif yang membentuk realitas. Otak manusia tidak membedakan antara ancaman fisik nyata dengan persepsi ancaman yang diciptakan oleh jiwa. Keduanya memicu kaskade biokimia yang identik.</p>
+                    <p class="mt-4">Ketika fikiran meyakini secara absolut bahwa kematian sedang mendekat—meski berdasarkan fakta yang salah atau manipulasi psikologis—tubuh akan mematuhinya sebagai perintah ontologis. Keadaan ini membuktikan bahwa realitas psikologis memiliki kedaulatan mutlak di atas realitas material.</p>
+                `
+            },
+            // Page 5: Logical Paradox 1
+            {
+                title: "Paradoks Parmenides & Kematian",
+                chapter: "BAB I: ONTOLOGI",
+                content: `
+                    <h2 class="font-title text-sm text-amber-950 font-bold mb-2">Paradoks Logika I: Ketiadaan yang Bekerja</h2>
+                    <p class="text-xs italic text-amber-950 font-bold mb-3">Renungkan silogisme filsafat berikut:</p>
+                    <div class="p-3 bg-amber-900/10 rounded border border-amber-900/20 text-xs font-serif font-bold space-y-2 mb-4">
+                        <p><strong>Premis I:</strong> Sesuatu yang tiada (non-entity) tidak memiliki daya kausalitas.</p>
+                        <p><strong>Premis II:</strong> Gagasan palsu atau ilusi adalah sesuatu yang tidak ada di alam nyata.</p>
+                        <p><strong>Premis III:</strong> Seseorang mati secara medis akibat teror gagasan palsu tersebut.</p>
+                        <p><strong>Kesimpulan Paradoks:</strong> Sesuatu yang 'tiada' telah menghasilkan dampak yang paling nyata di alam fisik (kematian).</p>
+                    </div>
+                    <p class="text-xs">Bagaimana mungkin Ketiadaan menghasilkan Keberadaan? Di manakah letak kebenaran? Apakah gagasan itu 'ada' sejak awal, ataukah kematian itu sendiri yang sebenarnya 'tiada'?</p>
+                `
+            },
+            // Page 6: Interactive Riddle 1
+            {
+                title: "Teka-Teki Logika Ontologi",
+                chapter: "LABIRIN LOGIKA",
+                content: `
+                    <div class="p-4 bg-parchment-dark rounded border border-ink/20">
+                        <h3 class="font-title text-sm font-bold text-amber-950 mb-2"><i class="fa-solid fa-brain mr-1"></i> Ujian Logika 1: Kotak Kegelapan</h3>
+                        <p class="text-xs mb-3">Seorang terdakwa dimasukkan ke dalam kamar gelap. Ia diberitahu bahwa pada pukul 12 malam, gas beracun tak berbau akan dialirkan. Tepat pukul 12 malam, ia berhenti bernapas dan organ tubuhnya gagal secara total. Otopsi membuktikan tidak ada gas beracun yang pernah dialirkan; yang dialirkan hanyalah uap air biasa.</p>
+                        <p class="text-xs font-bold mb-2 text-amber-950">Pertanyaan Teologis-Filsafat:</p>
+                        <p class="text-xs italic mb-4">Apakah yang membunuh orang tersebut? Manakah zat penyebab kematiannya?</p>
+                        
+                        <div class="space-y-2 text-xs font-bold" id="riddle1Options">
+                            <button onclick="checkRiddle(1, 'A')" class="w-full text-left p-2 bg-parchment hover:bg-gold/20 rounded border border-ink/20 text-ink">A. Uap air biasa yang menjadi racun.</button>
+                            <button onclick="checkRiddle(1, 'B')" class="w-full text-left p-2 bg-parchment hover:bg-gold/20 rounded border border-ink/20 text-ink">B. Keyakinannya sendiri akan ketiadaan hidup (Psikologi Murni).</button>
+                            <button onclick="checkRiddle(1, 'C')" class="w-full text-left p-2 bg-parchment hover:bg-gold/20 rounded border border-ink/20 text-ink">C. Takdir Tuhan yang kebetulan terjadi tepat pukul 12.</button>
+                        </div>
+                        <div id="riddle1Ans" class="hidden mt-3 p-2 bg-amber-900/10 text-xs italic text-amber-950 font-bold rounded"></div>
+                    </div>
+                `
+            },
+            // Page 7: Chapter 2 - Bio-Philosophy & Medicine
+            {
+                title: "Bab II: Bio-Filsafat & Kedokteran",
+                chapter: "BAB II: KEDOKTERAN",
+                content: `
+                    <h2 class="font-title text-base text-amber-950 font-bold mb-3">2. Otak, Jiwa, dan Senjata Tak Terlihat</h2>
+                    <p class="dropcap">Kedokteran modern terjebak dalam bias mekanistik: mereka memandang tubuh sebagai mesin jam kuno buatan Descartes. Jika mesin berhenti, mereka mencari gigi roda yang patah. Namun mereka lupa bahwa ada 'peniup ruh' atau sistem psikologis tersembunyi yang mengendalikan seluruh tegangan listrik jantung.</p>
+                    <p class="mt-4">Sistem saraf otonom adalah jembatan paling rapuh sekaligus paling mematikan antara gagasan dan biokimia. Melalui pelepasan katekolamin masif yang dipicu oleh teror psikologis murni, akson-akson otak mampu menghentikan ritme sinoptik jantung tanpa meninggalkan goresan sedikit pun pada organ fisik.</p>
+                `
+            },
+            // Page 8: Nocebo Effect and Silent Killers
+            {
+                title: "Efek Nocebo: Kutukan Psikologis",
+                chapter: "BAB II: KEDOKTERAN",
+                content: `
+                    <p>Para ilmuwan menyebutnya 'Efek Nocebo', namun nenek moyang kita menyebutnya kutukan atau sihir. Pada hakikatnya, keduanya adalah fenomena yang sama: sugesti psikologis absolut yang menghancurkan homeostasis biologis.</p>
+                    <p class="mt-4">Seseorang yang diberi diagnosis salah bahwa ia memiliki kanker stadium akhir dan hanya memiliki sisa hidup 3 minggu, seringkali membusuk dan mati tepat dalam rentang waktu tersebut—meskipun otopsi pasca-kematian membuktikan organ fisiknya bebas dari sel kanker.</p>
+                    <blockquote class="my-4 p-3 italic border-l-2 border-amber-900 bg-amber-900/10 text-amber-950 font-bold text-xs sm:text-sm">
+                        "Penyakit tidak selalu datang dari luar. Sering kali, penyakit adalah cara jiwa mengeksekusi vonis mati yang dibuat oleh prasangkanya sendiri."
+                    </blockquote>
+                `
+            },
+            // Page 9: Unknown Psychological Murder
+            {
+                title: "Pembunuhan Tanpa Jejak Medis",
+                chapter: "BAB II: KEDOKTERAN",
+                content: `
+                    <p>Bagaimanakah seseorang dapat membunuh orang lain tanpa menyentuhnya, tanpa memberinya racun, dan tanpa melanggar hukum pidana manusia? Jawabannya terletak dalam manipulasi arsitektur psikologis korban.</p>
+                    <p class="mt-4">Dengan menanamkan isolasi sosial total, distorsi memori secara sistematis, rasa bersalah existential yang tak tertahankan, dan teror metafisik, seorang manipulator dapat mengarahkan sistem imun dan sistem kardiovaskular korban untuk merusak dirinya sendiri dari dalam.</p>
+                    <p class="mt-4 text-xs italic text-amber-950 font-bold">Secara hukum empiris, ini dianggap 'kematian alami' atau 'gagal jantung mendadak'. Namun secara metafisika kedokteran, ini adalah pembunuhan sempurna (Psychology can kill someone by unknown).</p>
+                `
+            },
+            // Page 10: Chapter 3 - Theology & Religion
+            {
+                title: "Bab III: Teologi & Agama",
+                chapter: "BAB III: TEOLOGI",
+                content: `
+                    <h2 class="font-title text-base text-amber-950 font-bold mb-3">3. Fakta, Mitos, dan Kausalitas Kosmik</h2>
+                    <p class="dropcap">Dalam ruang teologi, kebodohan manusia mewujud dalam bentuk antropomorfisme: menciptakan Tuhan yang berpikir, marah, dan beraksi persis seperti ego manusia yang kerdil. Agama kerap kali dijadikan perisai psikologis untuk melarikan diri dari kenyataan dingin alam semesta.</p>
+                    <p class="mt-4">Namun demikian, dogma teologis memiliki kekuatan psikis yang dahsyat. Dosa, neraka, dan rasa takut akan murka Ilahi bukan sekadar doktrin abstrak; mereka adalah realitas neuro-psikologis yang dapat menghancurkan sanubari manusia hingga ke titik kelelahan biologis.</p>
+                `
+            },
+            // Page 11: The Cosmic Clock & Divine Silence
+            {
+                title: "Keheningan Ilahi & Ketakutan Manusia",
+                chapter: "BAB III: TEOLOGI",
+                content: `
+                    <p>Alam semesta bertindak dengan kepastian matematika yang dingin. Bintang-bintang meledak dan galaksi bertabrakan tanpa memedulikan doa atau moralitas manusia. Keheningan Ilahi (<i>Deus Absconditus</i>) inilah yang paling ditakuti oleh psikologi manusia.</p>
+                    <p class="mt-4">Ketika manusia menyadari betapa kerdil dan sendirinya mereka di tengah keheningan kosmis yang tak bertepi, timbul kegelisahan eksistensial yang luar biasa. Untuk bertahan hidup, manusia menciptakan mitos dan keyakinan. Namun ketika mitos itu retak, keruntuhan psikologis yang terjadi sering kali membawa kematian jiwa sebelum kematian raga.</p>
+                `
+            },
+            // Page 12: Interactive Riddle 2
+            {
+                title: "Teka-Teki Teologi & Kausalitas",
+                chapter: "LABIRIN LOGIKA",
+                content: `
+                    <div class="p-4 bg-parchment-dark rounded border border-ink/20">
+                        <h3 class="font-title text-sm font-bold text-amber-950 mb-2"><i class="fa-solid fa-scroll mr-1"></i> Ujian Logika 2: Dilema Takdir & Kehendak</h3>
+                        <p class="text-xs mb-3">Jika Tuhan Mahatahunya Pencipta mengetahui dari awal keabadian bahwa seseorang akan mati karena ilusi pikiran pada hari ini, apakah orang tersebut memiliki kehendak bebas (free will) untuk menolak ilusi itu dan tetap hidup?</p>
+                        
+                        <div class="space-y-2 text-xs font-bold" id="riddle2Options">
+                            <button onclick="checkRiddle(2, 'A')" class="w-full text-left p-2 bg-parchment hover:bg-gold/20 rounded border border-ink/20 text-ink">A. Punya kehendak bebas, karena pikiran adalah miliknya sendiri.</button>
+                            <button onclick="checkRiddle(2, 'B')" class="w-full text-left p-2 bg-parchment hover:bg-gold/20 rounded border border-ink/20 text-ink">B. Tidak punya, karena jika ia selamat, pengetahuan Tuhan menjadi salah.</button>
+                            <button onclick="checkRiddle(2, 'C')" class="w-full text-left p-2 bg-parchment hover:bg-gold/20 rounded border border-ink/20 text-ink">C. Waktu dan kehendak adalah ilusi manusia; tidak ada sebelum dan sesudah bagi Abadi.</button>
+                        </div>
+                        <div id="riddle2Ans" class="hidden mt-3 p-2 bg-amber-900/10 text-xs italic text-amber-950 font-bold rounded"></div>
+                    </div>
+                `
+            },
+            // Page 13: Chapter 4 - Life and Death
+            {
+                title: "Bab IV: Kehidupan & Kematian",
+                chapter: "BAB IV: KEMATIAN",
+                content: `
+                    <h2 class="font-title text-base text-amber-950 font-bold mb-3">4. Dialektika Kehidupan dan Kematian</h2>
+                    <p class="dropcap">Kehidupan dan kematian bukanlah dua entitas terpisah yang saling bertolak belakang; mereka adalah dua sisi dari satu keping koin yang sama. Kematian adalah syarat mutlak bagi keberadaan kehidupan, sebagaimana kegelapan adalah syarat bagi definisi cahaya.</p>
+                    <p class="mt-4">Kebodohan manusia membuat mereka memandang kematian sebagai 'musuh' yang datang dari luar. Padahal, benih kematian ditanam dalam kode genetik dan metabolisme kita sejak detik pertama sel telur dibuahi. Kita tidak 'jatuh sakit' lalu mati; kita mati karena kita hidup.</p>
+                `
+            },
+            // Page 14: Time, Entropy, and Past/Present
+            {
+                title: "Entropi, Masa Lalu, dan Masa Sekarang",
+                chapter: "BAB IV: KEMATIAN",
+                content: `
+                    <p>Masa lalu adalah makam dari kenangan yang membatu, sedangkan masa depan adalah bentangan kemungkinan yang belum wujud. Manusia hanya benar-benar ada di dalam 'Masa Sekarang' (<i>The Eternal Now</i>).</p>
+                    <p class="mt-4">Namun secara psikologis, mayoritas manusia hidup terbelenggu oleh hantu masa lalu atau kecemasan akan masa depan. Penyesalan mendalam dan trauma masa lalu yang tidak terselesaikan memicu proses entropi emosional—merusak struktur neuro-Kimiawi hingga tubuh fisik membusuk dari dalam sebelum waktunya.</p>
+                `
+            },
+            // Page 15: The Paradox of Time
+            {
+                title: "Paradoks Waktu Filsafat",
+                chapter: "BAB IV: KEMATIAN",
+                content: `
+                    <blockquote class="my-4 p-3 italic border-l-2 border-amber-900 bg-amber-900/10 text-amber-950 font-bold text-xs sm:text-sm">
+                        "Masa lalu tidak lagi ada; masa depan belum ada. Jika masa sekarang hanyalah titik potong tak berdimensi antara yang tiada dan yang belum ada, maka kapan sesungguhnya manusia hidup?"
+                    </blockquote>
+                    <p class="mt-4">Ketidakmampuan manusia memahami waktu membuat mereka mengumpulkan harta, ilmu, dan kekuasaan seolah-olah mereka abadi. Inilah puncak kebodohan: menumpuk perbekalan tak terbatas untuk perjalanan yang dapat berakhir dalam hitungan detik berikutnya.</p>
+                `
+            },
+            // Page 16: Chapter 5 - Literature & Philosophy
+            {
+                title: "Bab V: Sastra & Labirin Logika",
+                chapter: "BAB V: SASTRA",
+                content: `
+                    <h2 class="font-title text-base text-amber-950 font-bold mb-3">5. Sastra Sebagai Cermin Jiwa yang Teroyak</h2>
+                    <p class="dropcap">Sastra dunia—dari tragedi Yunani Sophocles, karya Shakespeare, hingga pemikiran Dostoevsky—sejac lama telah merekam fakta bahwa pikiran manusia adalah pembunuh paling kejam. Raskolnikov tidak dihancurkan oleh polisi, melainkan oleh beban gila dari silogisme moralnya sendiri.</p>
+                    <p class="mt-4">Kata-kata dan narasi yang kita susun dalam pikiran bukan sekadar simbol di atas kertas. Mereka adalah arsitektur yang mengurung jiwa kita. Sastra yang agung selalu mengungkap betapa rapuhnya garis batas antara kewarasan dan kegilaan.</p>
+                `
+            },
+            // Page 17: Theological & Logical Puzzles (Game 3)
+            {
+                title: "Permainan Logika: Silogisme Kematian",
+                chapter: "LABIRIN LOGIKA",
+                content: `
+                    <div class="p-4 bg-parchment-dark rounded border border-ink/20">
+                        <h3 class="font-title text-sm font-bold text-amber-950 mb-2"><i class="fa-solid fa-puzzle-piece mr-1"></i> Ujian Logika 3: Racun Sokratik</h3>
+                        <p class="text-xs mb-3">Perhatikan dua pernyataan berikut:</p>
+                        <p class="text-xs italic bg-parchment p-2 rounded mb-2 font-bold">1. "Semua pernyataan di dalam buku ini adalah ilusi palsu."</p>
+                        <p class="text-xs italic bg-parchment p-2 rounded mb-3 font-bold">2. "Pernyataan di atas adalah satu-satunya fakta absolut."</p>
+                        <p class="text-xs font-bold mb-2 text-amber-950">Jika Anda memercayai kedua pernyataan ini secara bersamaan, apakah yang terjadi pada pikiran Anda?</p>
+                        
+                        <div class="space-y-2 text-xs font-bold" id="riddle3Options">
+                            <button onclick="checkRiddle(3, 'A')" class="w-full text-left p-2 bg-parchment hover:bg-gold/20 rounded border border-ink/20 text-ink">A. Pikiran Anda mencapai pencerahan absolut.</button>
+                            <button onclick="checkRiddle(3, 'B')" class="w-full text-left p-2 bg-parchment hover:bg-gold/20 rounded border border-ink/20 text-ink">B. Terjadi loop logika tak berujung yang merusak struktur penalaran.</button>
+                            <button onclick="checkRiddle(3, 'C')" class="w-full text-left p-2 bg-parchment hover:bg-gold/20 rounded border border-ink/20 text-ink">C. Kedua pernyataan itu saling menghapuskan hingga menjadi 'Tiada'.</button>
+                        </div>
+                        <div id="riddle3Ans" class="hidden mt-3 p-2 bg-amber-900/10 text-xs italic text-amber-950 font-bold rounded"></div>
+                    </div>
+                `
+            },
+            // Page 18: Universe & Cosmic Entropy
+            {
+                title: "Bab VI: Alam Semesta & Kosmologi",
+                chapter: "BAB VI: KOSMOS",
+                content: `
+                    <h2 class="font-title text-base text-amber-950 font-bold mb-3">6. Skala Kosmik & Ketidakberartian Manusia</h2>
+                    <p class="dropcap">Tataplah langit malam. Cahaya bintang yang Anda lihat membutuhkan jutaan tahun cahaya untuk sampai ke retina mata Anda. Bintang pencipta cahaya itu mungkin telah hancur dan mati ribuan tahun lalu. Kita adalah makhluk yang melihat hantu-hantu masa lalu kosmis.</p>
+                    <p class="mt-4">Di tengah kemegahan 200 miliar galaksi, bumi hanyalah sebutir debu yang melayang di samudera kegelapan yang tak terbatas. Segala ego, perang, filsafat, dan duka manusia tidak meninggalkan jejak apa pun di skala kosmik. Pemahaman akan fakta ini dapat membebaskan jiwa, atau menghancurkannya sama sekali.</p>
+                `
+            },
+            // Page 19: Truth vs Illusion
+            {
+                title: "Fakta atau Bukan: Maya dan Realitas",
+                chapter: "BAB VI: KOSMOS",
+                content: `
+                    <p>Apakah yang kita sebut 'Fakta'? Dalam fisika kuantum modern maupun filsafat Vedanta kuno, materi terbukti hanyalah getaran energi dalam ruang hampa. Meja kayu yang tampak padat di depan Anda sebenarnya 99.999% adalah ruang kosong.</p>
+                    <p class="mt-4">Indra manusia menipu kita untuk memercayai bahwa dunia ini padat dan permanen. Kita hidup dalam <i>Maya</i> (ilusi persepsi). Seseorang yang tidak sanggup membedakan antara peta persepsi dan wilayah realitas objektif akan selalu menjadi mangsa manipulasi psikologis dan ketakutan ilusif.</p>
+                `
+            },
+            // Page 20: Possibility vs Impossibility
+            {
+                title: "Mungkin atau Tidak: Batas Penalaran",
+                chapter: "BAB VI: KOSMOS",
+                content: `
+                    <p>Manusia cenderung menganggap sesuatu 'tidak mungkin' hanya karena fenomena tersebut belum pernah tercatat dalam pengalaman hidup mereka yang pendek. Inilah yang dinamakan bias positivisme sempit.</p>
+                    <blockquote class="my-4 p-3 italic border-l-2 border-amber-900 bg-amber-900/10 text-amber-950 font-bold text-xs sm:text-sm">
+                        "Batas dari duniamu adalah batas dari bahasa dan pemikiranmu. Di luar batas itu, terhampar wilayah yang tak terbatas di mana hal-hal mustahil bertransformasi menjadi kenyataan."
+                    </blockquote>
+                    <p class="text-xs">Apakah mungkin pikiran membunuh raga tanpa sentuhan fisik? Sejarah medis dan antropologi membuktikan hal itu telah terjadi ribuan kali. Yang 'tidak mungkin' hanyalah penerimaan ego manusia terhadap fakta tersebut.</p>
+                `
+            },
+            // Page 21: Deep Analysis on Ignorance
+            {
+                title: "Struktur Kebodohan Manusia",
+                chapter: "ANALISIS KRITIS",
+                content: `
+                    <h2 class="font-title text-sm text-amber-950 font-bold mb-2">Tiga Tingkatan Kebodohan Epistemologis</h2>
+                    <ol class="list-decimal list-inside space-y-3 text-xs sm:text-sm">
+                        <li><strong>Ketidaktahuan Tingkat Pertama:</strong> Tidak tahu bahwa dirinya tidak tahu (Ignorance of Ignorance). Ini adalah kondisi mayoritas massa yang puas dengan dogma superfisial.</li>
+                        <li><strong>Ketidaktahuan Tingkat Kedua:</strong> Merasa tahu padahal hanya menghafal istilah (Illusion of Knowledge). Terjadi pada akademisi yang mengira penamaan latin adalah pemahaman esensi.</li>
+                        <li><strong>Ketidaktahuan Tingkat Ketiga:</strong> Ketakutan absolut akan Ketiadaan. Keengganan jiwa untuk menerima bahwa semua konstruksi identitas manusia adalah fana.</li>
+                    </ol>
+                `
+            },
+            // Page 22: The Silent Weapon - Psychology
+            {
+                title: "Anatomi Kematian Psikologis",
+                chapter: "ANALISIS KRITIS",
+                content: `
+                    <p class="dropcap">Bagaimanakah mekanisme halus pembunuhan psikologis ini bekerja secara bertahap?</p>
+                    <div class="mt-4 space-y-2 text-xs">
+                        <div class="p-2 bg-amber-900/10 rounded">
+                            <strong>Tahap 1: Infiltrasi Gagasan (Ideation)</strong><br>
+                            Penanaman benih keraguan, rasa bersalah, atau ilusi bahaya ke dalam alam bawah sadar korban.
+                        </div>
+                        <div class="p-2 bg-amber-900/10 rounded">
+                            <strong>Tahap 2: Amplifikasi Neuro-Sistemik</strong><br>
+                            Pikiran korban memproduksi hormon stres berlebih secara konstan, mengikis sistem imun dan kardiovaskular.
+                        </div>
+                        <div class="p-2 bg-amber-900/10 rounded">
+                            <strong>Tahap 3: Runtuhnya Kehendak Hidup (Apathy)</strong><br>
+                            Jiwa menyerah pada vonis mati buatan. Tubuh fisik mematuhi perintah penurunan fungsi organ secara total.
+                        </div>
+                    </div>
+                `
+            },
+            // Page 23: Logical Puzzle 4
+            {
+                title: "Ujian Logika: Paradoks Cermin",
+                chapter: "LABIRIN LOGIKA",
+                content: `
+                    <div class="p-4 bg-parchment-dark rounded border border-ink/20">
+                        <h3 class="font-title text-sm font-bold text-amber-950 mb-2"><i class="fa-solid fa-eye mr-1"></i> Ujian Logika 4: Cermin Jiwa</h3>
+                        <p class="text-xs mb-3">Jika seseorang melihat ke dalam cermin dan meyakini secara mutlak bahwa bayangan di cermin adalah dirinya yang nyata, sementara tubuh fisiknya adalah ilusi palsu, siapakah yang akan mati ketika cermin tersebut dipecahkan?</p>
+                        
+                        <div class="space-y-2 text-xs font-bold" id="riddle4Options">
+                            <button onclick="checkRiddle(4, 'A')" class="w-full text-left p-2 bg-parchment hover:bg-gold/20 rounded border border-ink/20 text-ink">A. Bayangan cermin yang runtuh.</button>
+                            <button onclick="checkRiddle(4, 'B')" class="w-full text-left p-2 bg-parchment hover:bg-gold/20 rounded border border-ink/20 text-ink">B. Tubuh fisik, karena kesadarannya terikat penuh pada bayangan.</button>
+                            <button onclick="checkRiddle(4, 'C')" class="w-full text-left p-2 bg-parchment hover:bg-gold/20 rounded border border-ink/20 text-ink">C. Tidak ada yang mati, karena keberadaan mereka sejak awal adalah ilusi.</button>
+                        </div>
+                        <div id="riddle4Ans" class="hidden mt-3 p-2 bg-amber-900/10 text-xs italic text-amber-950 font-bold rounded"></div>
+                    </div>
+                `
+            },
+            // Page 24: Philosophical Poetry & Aphorisms
+            {
+                title: "Aforisme Keheningan & Kematian",
+                chapter: "KUMPULAN AFORISME",
+                content: `
+                    <div class="space-y-4 font-serif italic text-xs sm:text-sm text-amber-950 font-bold">
+                        <p class="p-3 border-l-2 border-gold bg-amber-900/10">
+                            "Bukan kegelapan malam yang menakutkan manusia, melainkan fakta bahwa kegelapan itu memantulkan ketiadaan di dalam hati mereka sendiri."
+                        </p>
+                        <p class="p-3 border-l-2 border-gold bg-amber-900/10">
+                            "Kata-kata adalah racun paling lambat yang pernah diciptakan. Satu kalimat penghinaan dapat membunuh sel-sel kebahagiaan seseorang selama 40 tahun."
+                        </p>
+                        <p class="p-3 border-l-2 border-gold bg-amber-900/10">
+                            "Kedokteran mencari sebab kematian pada bangkai; filsafat mencari sebab kematian pada pikiran yang masih bernapas."
+                        </p>
+                    </div>
+                `
+            },
+            // Page 25: Medical Case Studies
+            {
+                title: "Studi Kasus Medis-Filsafat",
+                chapter: "METODE EMPIRIS",
+                content: `
+                    <h2 class="font-title text-sm text-amber-950 font-bold mb-2">Kasus Voodoo Death & Autonomical Collapse</h2>
+                    <p class="text-xs">Dalam antropologi medis, fenomena <i>Voodoo Death</i> yang diteliti oleh Dr. Walter Cannon (1942) membuktikan bahwa anggota suku primitif yang dikutuk oleh tetua suku akan mati dalam waktu 24-48 jam tanpa adanya kontak fisik atau racun.</p>
+                    <p class="text-xs mt-3">Mekanisme kematian ini adalah stimulasi syaraf simpatis berlebihan yang berujung pada penurunan tekanan darah mendadak hingga nol. Ini adalah bukti tak terbantahkan dari tesis utama buku ini: Psikologi adalah pembunuh paling efektif yang pernah ada.</p>
+                `
+            },
+            // Page 26: Theology vs Empirical Science
+            {
+                title: "Pertentangan Teologi & Sains Medis",
+                chapter: "TEOLOGI & SAINS",
+                content: `
+                    <p class="dropcap">Sains medis menolak mukjizat, sedangkan teologi dogmatis menolak kepastian hukum alam. Keduanya terjebak dalam ekstrimisme pemikiran yang kaku.</p>
+                    <p class="mt-4">Sintesis sejati antara teologi dan sains hanya dapat dicapai ketika manusia menyadari bahwa Hukum Alam adalah manifested Kehendak Ilahi itu sendiri. Ketika pikiran manusia melanggar keselarasan hukum alam psikologis, kehancuran otomatis (kematian) adalah konsekuensi kausalitas yang tak terhindarkan.</p>
+                `
+            },
+            // Page 27: The Mask of Rationality
+            {
+                title: "Topeng Rasionalitas Manusia",
+                chapter: "KRITIK AKAL",
+                content: `
+                    <p>Manusia suka menganggap diri mereka sebagai makhluk rasional. Namun sejarah membuktikan bahwa tindakan terbesar manusia—perang, pembantaian, manipulasi, dan perusakan diri—dipicu oleh emosi irasional dan ilusi ideologis.</p>
+                    <p class="mt-4">Rasionalitas sering kali hanyalah topeng tipis yang digunakan untuk membenarkan dorongan-dorongan alam bawah sadar yang gelap. Ketika topeng itu disingkap, yang tersisa hanyalah ketakutan anak kecil di tengah kegelapan hutan kosmis.</p>
+                `
+            },
+            // Page 28: Interactive Riddle 5
+            {
+                title: "Ujian Logika: Paradox Takdir",
+                chapter: "LABIRIN LOGIKA",
+                content: `
+                    <div class="p-4 bg-parchment-dark rounded border border-ink/20">
+                        <h3 class="font-title text-sm font-bold text-amber-950 mb-2"><i class="fa-solid fa-hourglass mr-1"></i> Ujian Logika 5: Jam Pasir Waktu</h3>
+                        <p class="text-xs mb-3">Seorang peramal memberi tahu Anda: "Anda akan mati esok hari jika Anda membaca buku filsafat ini." Anda memutuskan untuk menutup buku ini seketika. Apakah tindakan menutup buku ini membebaskan Anda dari takdir, atau justru tindakan menutup buku itulah yang memenuhi ramalan tersebut?</p>
+                        
+                        <div class="space-y-2 text-xs font-bold" id="riddle5Options">
+                            <button onclick="checkRiddle(5, 'A')" class="w-full text-left p-2 bg-parchment hover:bg-gold/20 rounded border border-ink/20 text-ink">A. Membebaskan dari takdir.</button>
+                            <button onclick="checkRiddle(5, 'B')" class="w-full text-left p-2 bg-parchment hover:bg-gold/20 rounded border border-ink/20 text-ink">B. Justru memenuhi ramalan takdir tersebut.</button>
+                            <button onclick="checkRiddle(5, 'C')" class="w-full text-left p-2 bg-parchment hover:bg-gold/20 rounded border border-ink/20 text-ink">C. Takdir dan pilihan berada dalam posisi superposisi kuantum.</button>
+                        </div>
+                        <div id="riddle5Ans" class="hidden mt-3 p-2 bg-amber-900/10 text-xs italic text-amber-950 font-bold rounded"></div>
+                    </div>
+                `
+            },
+            // Page 29: Literature & Solitude
+            {
+                title: "Kesendirian & Ruang Sunyi Sastra",
+                chapter: "SASTRA & JIWA",
+                content: `
+                    <p class="dropcap">Dalam sastra kesendirian (solitude), kita menemukan refleksi jujur mengenai kondisi manusia. Manusia modern melakukan segala cara untuk menghindari kesendirian—mereka mencari keramaian, musik bising, dan hiburan murahan.</p>
+                    <p class="mt-4">Mengapa manusia takut akan kesendirian? Karena dalam kesendirian, bisikan halus dari akal budi dan kesadaran akan kematian tidak lagi dapat dibungkam. Dalam sunyi, manusia dipaksa berhadapan dengan cermin jiwanya sendiri yang retak.</p>
+                `
+            },
+            // Page 30: Universe as a Living Mind
+            {
+                title: "Alam Semesta Sebagai Pikiran Raksasa",
+                chapter: "KOSMOLOGI",
+                content: `
+                    <p>Fisikawan Sir James Jeans pernah menulis: <i>"Alam semesta mulai tampak lebih seperti pikiran raksasa daripada seperti mesin raksasa."</i></p>
+                    <p class="mt-4">Jika alam semesta ini pada hakikatnya adalah Pikiran (Mind/Logos), maka hukum-hukum psikologi bukan sekadar fenomena lokal di otak manusia, melainkan fondasi dasar dari struktur realitas itu sendiri. Pembunuhan psikologis dengan demikian adalah distorsi lokal pada jalinan kesadaran kosmis.</p>
+                `
+            },
+            // Page 31: Being or Non-Being Final Synthesis
+            {
+                title: "Sintesis Akhir: Ada & Tiada",
+                chapter: "METAFISIKA",
+                content: `
+                    <p>Kita kembali ke pertanyaan fundamental: Ada atau Tiada? Kebenaran sejati terletak pada melampaui dualisme ini.</p>
+                    <p class="mt-4">Kehidupan bukanlah 'Ada' yang terpisah dari 'Tiada'. Kehidupan adalah tarian sementara di mana 'Ada' memperagakan bentuk-bentuknya sebelum kembali melebur ke dalam Samudera 'Tiada' yang abadi. Memahami hal ini menghilangkan rasa takut akan kematian secara mutlak.</p>
+                `
+            },
+            // Page 32: The Final Warning
+            {
+                title: "Peringatan Terakhir Kepada Pembaca",
+                chapter: "PERINGATAN",
+                content: `
+                    <div class="p-4 bg-amber-900/10 border border-amber-900/30 rounded">
+                        <h3 class="font-title text-sm text-amber-950 font-bold mb-2 uppercase tracking-wider text-center">Peringatan Epistemologis</h3>
+                        <p class="text-xs leading-relaxed text-justify font-bold">
+                            Jika setelah membaca buku ini Anda merasakan kecemasan yang mendalam atau keraguan atas realitas di sekitar Anda, ketahuilah bahwa ilusi pikiran Anda sedang berusaha mempertahankan dirinya. Jangan biarkan gagasan dalam buku ini membunuh kedamaian jiwa Anda. Pikiran adalah pelayan yang baik, namun majikan yang sangat kejam.
+                        </p>
+                    </div>
+                `
+            },
+            // Page 33: Chapter 6 - Conclusion
+            {
+                title: "Bab VII: Kesimpulan Paradoks",
+                chapter: "EPILOG",
+                content: `
+                    <h2 class="font-title text-base text-amber-950 font-bold mb-3">7. Penutup: Bebas dari Kebodohan</h2>
+                    <p class="dropcap">Tujuan akhir dari filsafat bukanlah untuk menumpuk hafalan teori, melainkan untuk membongkar prasangka dan kebodohan hingga kita berdiri telanjang di hadapan Kebenaran Sejati.</p>
+                    <p class="mt-4">Psikologi dapat membunuh seseorang tanpa diketahui—fakta ini adalah peringatan betapa dahsyatnya kekuatan pikiran. Namun kekuatan yang sama, jika dipandu oleh kebijaksanaan dan kesadaran murni, dapat menjadi penyembuh sejati bagi raga dan jiwa.</p>
+                `
+            },
+            // Page 34: Author Epilogue
+            {
+                title: "Catatan Akhir Penulis",
+                chapter: "EPILOG",
+                content: `
+                    <p class="italic text-amber-950 font-bold text-xs mb-4">Ditulis di Ruang Kerja Perpustakaan Heidelberg, Musim Dingin 1912.</p>
+                    <p class="text-sm">Saya tidak mengharapkan buku ini disukai oleh massa yang mengagungkan kenyamanan ilusi. Buku ini saya persembahkan bagi para pengelana jiwa yang berani menatap jurang kegelapan eksistensi tanpa berkedip.</p>
+                    <div class="mt-8 text-right font-serif">
+                        <p class="font-bold text-amber-950">— Prof. Dr. Aurelius Vance</p>
+                        <p class="text-xs text-amber-950 font-bold italic">Praeceptor Naturalis Philosophia</p>
+                    </div>
+                `
+            },
+            // Page 35: Colophon & References
+            {
+                title: "Kolofon & Manuskrip",
+                chapter: "KOLOFON",
+                content: `
+                    <div class="text-center my-auto py-6 space-y-4 text-xs text-amber-950 font-bold font-serif">
+                        <p class="font-title text-ink font-bold uppercase tracking-widest">FINIS CORONAT OPUS</p>
+                        <div class="w-12 h-0.5 bg-ink/20 mx-auto"></div>
+                        <p>Tractatus ini diselesaikan dicetak pada kertas perkamen tahan lama dengan tinta berbasis jelaga jelai.</p>
+                        <p class="italic">"Sola scientia quae ignorantiam suam cognoscit, vera est sapientia."</p>
+                        <p class="text-[10px] text-amber-950 font-bold mt-6">(Satu-satunya pengetahuan yang menyadari ketidaktahuannya adalah kebijaksanaan sejati.)</p>
+                    </div>
+                `
+            },
+            // Page 36: Back Inner Cover / Epilogue End
+            {
+                title: "Sampul Belakang Dalam",
+                chapter: "SAMPUL BELAKANG",
+                content: `
+                    <div class="flex flex-col justify-center items-center h-full text-center p-6">
+                        <i class="fa-solid fa-scroll text-4xl text-amber-900/60 mb-4"></i>
+                        <p class="font-title text-sm text-amber-950 font-bold tracking-widest uppercase mb-2">Buku Telah Selesai</p>
+                        <p class="font-serif italic text-xs text-amber-950 font-bold max-w-xs mb-6">
+                            Anda telah melintasi 36 lembaran meditasi filsafat, teologi, dan kedokteran jiwa.
+                        </p>
+                        <button onclick="goToPage(0)" class="px-4 py-2 bg-leather text-gold rounded font-title text-xs font-bold hover:bg-leather-accent transition-all border border-gold/30">
+                            <i class="fa-solid fa-rotate-left mr-1"></i> Kembali ke Sampul Depan
+                        </button>
+                    </div>
+                `
+            }
+        ];
+
+        // =========================================================================
+        // STATE MANAGEMENT & AUDIO SYNTHESIZER
+        // =========================================================================
+        let currentPage = 0; // 0 = Cover closed, 1..36 = Open Pages
+        let isSoundEnabled = true;
+        let isUIVisible = true;
+
+        // Web Audio API Paper Rustle Synthesizer
+        function playPaperTurnSound() {
+            if (!isSoundEnabled) return;
+            try {
+                const AudioContext = window.AudioContext || window.webkitAudioContext;
+                if (!AudioContext) return;
+                const ctx = new AudioContext();
+                
+                const bufferSize = ctx.sampleRate * 0.15; // 150ms
+                const buffer = ctx.createBuffer(1, bufferSize, ctx.sampleRate);
+                const data = buffer.getChannelData(0);
+                for (let i = 0; i < bufferSize; i++) {
+                    data[i] = Math.random() * 2 - 1;
+                }
+
+                const noise = ctx.createBufferSource();
+                noise.buffer = buffer;
+
+                const filter = ctx.createBiquadFilter();
+                filter.type = 'bandpass';
+                filter.frequency.value = 1200;
+                filter.Q.value = 1.5;
+
+                const gain = ctx.createGain();
+                gain.gain.setValueAtTime(0.08, ctx.currentTime);
+                gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.15);
+
+                noise.connect(filter);
+                filter.connect(gain);
+                gain.connect(ctx.destination);
+
+                noise.start();
+            } catch (e) {
+                console.log("Audio error:", e);
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const bookCoverView = document.getElementById('bookCoverView');
+            const pageIndicator = document.getElementById('pageIndicator');
+            const pageSlider = document.getElementById('pageSlider');
+            
+            const btnPrev = document.getElementById('btnPrev');
+            const btnNext = document.getElementById('btnNext');
+            const btnSidePrev = document.getElementById('btnSidePrev');
+            const btnSideNext = document.getElementById('btnSideNext');
+            const btnCover = document.getElementById('btnCover');
+            const btnTOC = document.getElementById('btnTOC');
+            const btnSearch = document.getElementById('btnSearch');
+            const btnSound = document.getElementById('btnSound');
+
+            const modalTOC = document.getElementById('modalTOC');
+            const closeTOC = document.getElementById('closeTOC');
+
+            const modalSearch = document.getElementById('modalSearch');
+            const closeSearch = document.getElementById('closeSearch');
+            const searchForm = document.getElementById('searchForm');
+            const inputPageNum = document.getElementById('inputPageNum');
+
+            // Build Table of Contents
+            buildTOC();
+
+            // Open Cover Click Event
+            bookCoverView.addEventListener('click', () => {
+                goToPage(1);
+            });
+
+            // Navigation Button Actions
+            function goNext() {
+                if (currentPage < 36) {
+                    const step = window.innerWidth >= 768 ? 2 : 1;
+                    goToPage(Math.min(36, currentPage + (currentPage === 0 ? 1 : step)));
+                }
+            }
+
+            function goPrev() {
+                if (currentPage > 0) {
+                    const step = window.innerWidth >= 768 ? 2 : 1;
+                    goToPage(Math.max(0, currentPage - step));
+                }
+            }
+
+            btnNext.addEventListener('click', goNext);
+            btnSideNext.addEventListener('click', goNext);
+
+            btnPrev.addEventListener('click', goPrev);
+            btnSidePrev.addEventListener('click', goPrev);
+
+            btnCover.addEventListener('click', () => {
+                goToPage(0);
+            });
+
+            // Slider Drag Event
+            pageSlider.addEventListener('input', (e) => {
+                const val = parseInt(e.target.value);
+                goToPage(val);
+            });
+
+            // Sound Toggle Button
+            btnSound.addEventListener('click', () => {
+                isSoundEnabled = !isSoundEnabled;
+                const soundIcon = document.getElementById('soundIcon');
+                if (isSoundEnabled) {
+                    soundIcon.className = "fa-solid fa-volume-high text-amber-300";
+                } else {
+                    soundIcon.className = "fa-solid fa-volume-xmark text-red-400";
+                }
+            });
+
+            // Keyboard Arrow Keys Navigation
+            window.addEventListener('keydown', (e) => {
+                if (e.key === 'ArrowRight') goNext();
+                if (e.key === 'ArrowLeft') goPrev();
+            });
+
+            // Modal TOC Events
+            btnTOC.addEventListener('click', () => modalTOC.classList.remove('hidden'));
+            closeTOC.addEventListener('click', () => modalTOC.classList.add('hidden'));
+
+            // Modal Search Events
+            btnSearch.addEventListener('click', () => modalSearch.classList.remove('hidden'));
+            closeSearch.addEventListener('click', () => modalSearch.classList.add('hidden'));
+
+            searchForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                const target = parseInt(inputPageNum.value);
+                if (target >= 1 && target <= 36) {
+                    goToPage(target);
+                    modalSearch.classList.add('hidden');
+                    inputPageNum.value = '';
+                }
+            });
+            
+            const btnToggleUI = document.getElementById('btnToggleUI');
+            const topHeader = document.getElementById('topHeader');
+            const bottomFooter = document.getElementById('bottomFooter');
+            const uiToggleIcon = document.getElementById('uiToggleIcon');
+            const uiToggleText = document.getElementById('uiToggleText');
+
+            // Toggle Hide/Show UI Mode
+            btnToggleUI.addEventListener('click', () => {
+                isUIVisible = !isUIVisible;
+                if (isUIVisible) {
+                    topHeader.classList.remove('ui-hidden');
+                    bottomFooter.classList.remove('ui-hidden-bottom');
+                    uiToggleIcon.className = "fa-solid fa-eye-slash";
+                    uiToggleText.innerText = "Sembunyikan UI";
+                } else {
+                    topHeader.classList.add('ui-hidden');
+                    bottomFooter.classList.add('ui-hidden-bottom');
+                    uiToggleIcon.className = "fa-solid fa-eye text-amber-300";
+                    uiToggleText.innerText = "Tampilkan UI";
+                }
+            });
+
+            // Initial Render
+            updateView();
+        });
+
+        // =========================================================================
+        // CORE NAVIGATION & RENDER FUNCTIONS
+        // =========================================================================
+        function goToPage(targetPage) {
+            if (targetPage < 0 || targetPage > 36) return;
+            
+            // Play rustle sound
+            playPaperTurnSound();
+
+            currentPage = targetPage;
+            updateView();
+        }
+
+        function updateView() {
+            const bookCoverView = document.getElementById('bookCoverView');
+            const bookSpreadView = document.getElementById('bookSpreadView');
+            const pageIndicator = document.getElementById('pageIndicator');
+            const pageSlider = document.getElementById('pageSlider');
+
+            // Update Page Indicator & Slider
+            pageIndicator.innerText = currentPage;
+            pageSlider.value = currentPage;
+
+            if (currentPage === 0) {
+                // Closed Cover View
+                bookCoverView.classList.remove('hidden');
+                bookSpreadView.classList.add('hidden');
+            } else {
+                // Open Book Spread View
+                bookCoverView.classList.add('hidden');
+                bookSpreadView.classList.remove('hidden');
+
+                // Render Left and Right Page Contents
+                const isDesktop = window.innerWidth >= 768;
+                let leftIdx = currentPage;
+                let rightIdx = currentPage + 1;
+
+                if (isDesktop && leftIdx % 2 === 0) {
+                    leftIdx = currentPage - 1;
+                    rightIdx = currentPage;
+                }
+
+                // Render Left Page
+                if (leftIdx >= 0 && leftIdx < bookPages.length) {
+                    document.getElementById('leftPageNum').innerText = leftIdx;
+                    document.getElementById('leftHeaderTitle').innerText = bookPages[leftIdx].chapter;
+                    document.getElementById('leftContent').innerHTML = bookPages[leftIdx].content;
+                }
+
+                // Render Right Page (Desktop Spread)
+                if (rightIdx < bookPages.length) {
+                    document.getElementById('rightPageNum').innerText = rightIdx;
+                    document.getElementById('rightHeaderTitle').innerText = bookPages[rightIdx].title;
+                    document.getElementById('rightContent').innerHTML = bookPages[rightIdx].content;
+                    document.getElementById('rightPage').classList.remove('hidden');
+                } else {
+                    document.getElementById('rightPage').classList.add('hidden');
+                }
+            }
+
+            // Update prev/next button states
+            document.getElementById('btnPrev').disabled = (currentPage === 0);
+            document.getElementById('btnNext').disabled = (currentPage === 36);
+            document.getElementById('btnSidePrev').disabled = (currentPage === 0);
+            document.getElementById('btnSideNext').disabled = (currentPage === 36);
+        }
+
+        // Build Table of Contents dynamically
+        function buildTOC() {
+            const tocList = document.getElementById('tocList');
+            tocList.innerHTML = '';
+
+            bookPages.forEach((page, index) => {
+                if (index === 0) return;
+
+                const item = document.createElement('div');
+                item.className = "flex justify-between items-center p-2 hover:bg-gold/20 rounded cursor-pointer border-b border-ink/10 text-xs sm:text-sm";
+                item.innerHTML = `
+                    <div class="flex flex-col">
+                        <span class="font-bold text-amber-900">${page.title}</span>
+                        <span class="text-[10px] text-ink-light uppercase">${page.chapter}</span>
+                    </div>
+                    <span class="font-title font-bold text-ink-light">Hal ${index}</span>
+                `;
+                item.addEventListener('click', () => {
+                    goToPage(index);
+                    document.getElementById('modalTOC').classList.add('hidden');
+                });
+                tocList.appendChild(item);
+            });
+        }
+
+        // =========================================================================
+        // INTERACTIVE RIDDLES CHECKER LOGIC
+        // =========================================================================
+        function checkRiddle(riddleNum, option) {
+            const ansDiv = document.getElementById(`riddle${riddleNum}Ans`);
+            ansDiv.classList.remove('hidden');
+
+            let feedback = "";
+            if (riddleNum === 1) {
+                if (option === 'B') {
+                    feedback = "<strong>Benar (Fakta Filsafat):</strong> Keyakinannya sendiri yang mengeksekusi vonis mati biologis. Ini adalah bukti bahwa konstruksi psikologis dapat membunuh raga secara absolut.";
+                } else {
+                    feedback = "<strong>Kurang Tepat:</strong> Uap air tidak beracun dan takdir adalah konsep metafisik. Secara empiris, pikiran korban sendiri yang menciptakan kelelahan biokimia fatal.";
+                }
+            } else if (riddleNum === 2) {
+                if (option === 'C') {
+                    feedback = "<strong>Benar (Sintesis Teologis):</strong> Menurut Parmenides dan Spinoza, Keabadian tidak terikat kronologi waktu manusia. 'Sebelum' dan 'Sesudah' hanyalah keterbatasan akal kerdil kita.";
+                } else {
+                    feedback = "<strong>Renungkan Kembali:</strong> Pilihan Anda masih terjebak dalam jebakan dualisme waktu manusia. Tuhan tidak menunggu waktu berlalu.";
+                }
+            } else if (riddleNum === 3) {
+                if (option === 'B') {
+                    feedback = "<strong>Tepat Sekali (Paradox Logika):</strong> Ini adalah variasi dari 'Liagram Paradox'. Mempercayai keduanya menciptakan ikatan paradoks yang membekukan fungsi penalaran rasional.";
+                } else {
+                    feedback = "<strong>Meleset:</strong> Kontradiksi absolut tidak menghasilkan pencerahan atau ketiadaan, melainkan jebakan pikiran.";
+                }
+            } else if (riddleNum === 4) {
+                if (option === 'B') {
+                    feedback = "<strong>Benar (Psikologi Murni):</strong> Di mana pun kesadaran manusia memutus pusat identitasnya, di situlah eksistensinya berada. Jika ia meyakini bayangan adalah dirinya, kehancuran bayangan akan menghentikan kesadarannya.";
+                } else {
+                    feedback = "<strong>Renungkan:</strong> Tubuh fisik tanpa kesadaran terikat hanyalah seonggok daging pasif.";
+                }
+            } else if (riddleNum === 5) {
+                if (option === 'B') {
+                    feedback = "<strong>Tepat (Paradoks Oedipus Rex):</strong> Tindakan melarikan diri dari takdir yang didasari oleh ketakutan psikologis sering kali menjadi rute persis yang mewujudkan takdir tersebut.";
+                } else {
+                    feedback = "<strong>Kurang Tepat:</strong> Dalam filsafat tragedi klasik, ketakutan irasional adalah bahan bakar utama pemenuhan ramalan.";
+                }
+            }
+
+            ansDiv.innerHTML = feedback;
+        }
+    </script>
+</body>
+</html>
+```
